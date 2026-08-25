@@ -1,0 +1,23 @@
+candidato: Beatriz Rodrigues de Freitas
+modelo_usado: gemini-3.6-flash
+provedor: google-ai-studio
+horas_dedicadas: 8
+
+nivel_1:
+  limpeza_dados:      {status: completo, onde: "nivel_1/nivel_1.ipynb, célula 4"}
+  regras_pandas:      {status: completo, onde: "nivel_1/nivel_1.ipynb, célula 9"}
+  validacao_regras:   {status: completo, onde: "nivel_1/nivel_1.ipynb, célula 10"}
+  saida_estruturada:  {status: completo, onde: "nivel_1/nivel_1.ipynb, célula 19"}
+  comparacao_prompts: {status: completo, onde: "nivel_1/nivel_1.ipynb#Comparação-dos-prompts"}
+
+nivel_2:
+  regras_em_escala: {status: nao_feito, plano: "docs/DECISOES.md#regras-em-escala"}
+  ferramentas:      {status: nao_feito, plano: "docs/DECISOES.md#ferramentas"}
+  agente:           {status: nao_feito, plano: "docs/DECISOES.md#agente"}
+  lote:             {status: nao_feito, plano: "docs/DECISOES.md#lote"}
+  confronto:        {status: nao_feito, plano: "docs/DECISOES.md#confronto"}
+
+nivel_3:
+  trilha_escolhida: B
+  status: nao_feito
+  plano: "docs/DECISOES.md#mcp"
